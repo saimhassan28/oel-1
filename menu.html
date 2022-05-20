@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Catering Menus</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <!--navbar-->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+         <img src="logo.png" alt="logo"><a class="navbar-brand logo" href="index.html"></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavDropdown">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Menus </a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Events
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                  <li><a class="dropdown-item" href="#">Weddings</a></li>
+                  <li><a class="dropdown-item" href="#">Corporate</a></li>
+              </li>
+            </ul>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Gallery </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="contact.html">Contact Us </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">About US</a>
+              </li>
+             
+          </div>
+        </div>
+      </nav>
+
+      <!--search-->
+
+    <input id="searchbar" onkeyup="search_food()" type="text"
+    name="search" placeholder="Search food..">
+  
+<!-- ordered list -->
+<ol id='list'>
+    <li class="animals">Chicken soup</li>
+    <li class="animals">Corn Soup</li>
+    <li class="animals">Hot shots</li>
+    <li class="animals">Fish and chips</li>
+    <li class="animals">Mozarella Sticks</li>
+    <li class="animals">Karahi</li>
+    <li class="animals">Handi</li>
+    <li class="animals">Kebab</li>
+    <li class="animals">Soft drink</li>
+    <li class="animals">Mocktail</li>
+    <li class="animals">Rooh afza</li>
+</ol>
+     
+
+
+    <script src="script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+</body>
+</html>

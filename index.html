@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Royal Plate</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!--navbar-->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+         <img src="logo.png" alt="logo"><a class="navbar-brand logo" href="index.html"></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavDropdown">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Menus </a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Events
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                  <li><a class="dropdown-item" href="#">Weddings</a></li>
+                  <li><a class="dropdown-item" href="#">Corporate</a></li>
+              </li>
+            </ul>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Gallery </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="contact.html">Contact Us </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">About US</a>
+              </li>
+             
+          </div>
+        </div>
+      </nav>
+
+      <!--slider-->
+      <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="slider_1.jpg" class="d-block w-100" alt="slide 1">
+          </div>
+          <div class="carousel-item">
+            <img src="slider_2.jpg" class="d-block w-100" alt="slide 2">
+          </div>
+          <div class="carousel-item">
+            <img src="slider_3.jpg" class="d-block w-100" alt="slide 3">
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+<br>
+    <!--cards-->
+    <div class="card bg-dark text-white">
+        <img src="white card.png" class="card-img" alt="...">
+        <div class="card-img-overlay">
+          <h3 class="card-title">CATERING MENUS WITH A PERSONAL TOUCH</h3>
+          <br>
+          <p class="card-text">Our experienced event specialists will help you plan a customized catering menu that 
+              incorporates your special event details, including party themes, special tastes, or special diets. 
+              Chef Kaspar Donier looks forward to designing a menu uniquely suited to you – or select your menu from 
+              our extensive selections. Kaspars' event planners would love to meet with you and help you design a menu 
+              that is uniquely suited to your event.</p>
+              <p></p>
+              <hr>
+              <h3 class="card-title">Food and Beverage Minimums:</h3>
+              <p>January - November</p>
+              <br>
+              <p>Tuesday - Thursday, $2000   //   Friday & Sunday, $2500   //  Saturday & Holidays, $3000</p>
+              <br>
+              <p>December</p>
+              <br>
+              <p>Sunday - Wednesday, $2500 // Thursday, $3000 // Friday & Saturday, $3500 </p>
+              <p></p>
+              <hr>
+        </div>
+      </div>
+
+<!--second card-->
+<div class="card-group">
+    <div class="card" onclick="menu">
+      <img src="food1.jpg" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h3 class="card-title">full Service Catering</h3>
+        <p class="card-text">Our passion is to provide you with a top-notch, restaurant-caliber culinary experience, featuring the highest quality seasonal, locally produced and sustainably farmed ingredients from the San Francisco Bay Area.</p>
+      <button id="button" type="button" class="read">Read More</input>
+    </div>
+    </div>
+    <div class="card">
+      <img src="food2.jpg" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h3 class="card-title">Beverages</h3>
+        <p class="card-text">Our passion is to provide you with a top-notch, restaurant-caliber culinary experience, featuring the highest quality seasonal, locally produced and sustainably farmed ingredients from the San Francisco Bay Area.</p>
+      </div>
+    </div>
+    <div class="card">
+      <img src="food3.jpg" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h3 class="card-title">Other Speciality Services</h3>
+        <p class="card-text">Our passion is to provide you with a top-notch, restaurant-caliber culinary experience, featuring the highest quality seasonal, locally produced and sustainably farmed ingredients from the San Francisco Bay Area.</p>
+      </div>
+    </div>
+  </div>
+
+  <p></p>
+  <hr>
+  <div class="items footer">Copyright @ M.Saim Hassan</div>
+
+    <script src="script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+</body>
+</html>
